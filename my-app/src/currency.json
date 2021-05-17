@@ -1,0 +1,68 @@
+[
+    {
+        "code": "AZN",
+        "nominal": "1",
+        "name": "Azərbaycan manatı",
+        "value": "1"
+    },
+    {
+        "code": "CZK",
+        "nominal": "1",
+        "name": "Çexiya kronu",
+        "value": "0.0780"
+    },
+    {
+        "code": "IRR",
+        "nominal": "100",
+        "name": "İran rialı",
+        "value": "0.0043"
+    },
+    {
+        "code": "RUB",
+        "nominal": "1",
+        "name": "Rusiya rublu",
+        "value": "0.0287"
+    },
+    {
+        "code": "GEL",
+        "nominal": "1",
+        "name": "Gürcü larisi",
+        "value": "0.6280"
+    },
+    {
+        "code": "GBP",
+        "nominal": "1",
+        "name": "İngilis funt sterlinqi",
+        "value": "2.2440"
+    },
+    {
+        "code": "TRY",
+        "nominal": "1",
+        "name": "Türk lirəsi",
+        "value": "0.4395"
+    },
+    {
+        "code": "EUR",
+        "nominal": "1",
+        "name": "Avro",
+        "value": "1.9941"
+    },
+    {
+        "code": "CHF",
+        "nominal": "1",
+        "name": "İsveçrə frankı",
+        "value": "1.7189"
+    },
+    {
+        "code": "AED",
+        "nominal": "1",
+        "name": "BƏƏ dirhəmi",
+        "value": "0.4629"
+    },
+    {
+        "code": "USD",
+        "nominal": "1",
+        "name": "ABŞ dolları",
+        "value": "1.7002"
+    }
+]

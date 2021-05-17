@@ -1,0 +1,85 @@
+@import './variables';
+
+body{
+    background-color: #000000;
+}
+
+#exchange{
+    height: 100vh;
+    .title{
+        color: $primary-color;
+        font-size: 15px;
+        position: absolute;
+        top: 2vh;
+    }
+    .application{
+        height: 90vh;
+        background-color: $primary-color;
+        margin-top: 5vh;
+        .head{
+            padding: 30px 20px;
+            img{
+                cursor: pointer;
+            }
+        }
+        .content{
+            height: 40vh;
+            width: 80%;
+            box-shadow: -10px -10px 15px #FFFFFF, 10px 10px 15px rgba(202, 206, 220, 0.623771);
+            margin-left: 50%;
+            transform: translateX(-50%);
+            margin-top: 8vh;
+            border-radius: 10px;
+            label{
+                position: absolute;
+                top: 3vh;
+                left: 3vh;
+                color: $text-color;
+            }
+            input{
+                border: none;
+                width: 60%;
+                padding: 5px 0;
+                border-radius: 5px;
+                &:focus{
+                    outline: none;
+                }
+            }
+            select{
+                position: absolute;
+                right: 3vh;
+                padding: 5px 0;
+                border: none;
+                color: $text-color;
+            }
+            .fromPart{
+                height: 20vh;
+                position: relative;
+                padding: 7vh 3vh;
+            }
+            .switchImg{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            .toPart{
+                position: relative;
+                height: 20vh;
+                padding: 7vh 3vh;
+                span{
+                    font-size: 26px;
+                    font-weight: 500;
+                }
+            }
+            button{
+                width: 100%;
+                padding: 10px 0;
+                margin-left: 50%;
+                margin-top: 7vh;
+                background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #1654F0;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}
