@@ -7,7 +7,7 @@ function Content() {
     const fromSelect = React.createRef();
     const fromInput = React.createRef();
     const outputRef = React.createRef();
-    function eventHandler(){
+    function submitEvent(){
         let from = currencyList.find(element=>element.code==fromSelect.current.value);
         let to = currencyList.find(element=>element.code==outputRef.current.value);
         document.getElementById("exchangeValue").innerText = ((fromInput.current.value*from.value)/to.value).toFixed(4);
@@ -29,7 +29,7 @@ function Content() {
         {currencyList.map(x=><option>{x.code}</option>)}
         </select>
       </div>
-      <button type="submit" className="btn btn-primary submitBtn" onClick={eventHandler}>
+      <button type="submit" className="btn btn-primary submitBtn" onClick={submitEvent}>
         Exchange
       </button>
     </div>
